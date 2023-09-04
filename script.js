@@ -1,7 +1,9 @@
-function menu(){
-    let menu = document.getElementsByClassName("caixa_menu")
-    menu.style = "display: inline"
-    let h1 = document.getElementsByTagName("h1")[0];
+var caixa_menu = document.getElementsByTagName("aside")[0]
+
+function menu() {
+   caixa_menu.style.right = "0"
     
-    alert("teste");
+}
+function voltar_menu(){
+    caixa_menu.style.right = "-300px"
 }
