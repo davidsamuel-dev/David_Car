@@ -4,7 +4,7 @@
     
 }
 body *{
-    border: 1px solid ;
+    /* border: 1px solid ; */
 }
 header{
     position: relative;
@@ -23,15 +23,15 @@ header #logo {
     float: right;
 }
 .caixa_menu{
+   
     position: absolute;
     right: 0;
     top: 0;
     display:inline-block;
-    /* display: none; */
     width: 300px;
     height: 800px;
     background-color: gray;
     float: right;
-    position: 
-    ;
+    display: none;
+    
 }
