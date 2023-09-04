@@ -1,4 +1,5 @@
 function menu(){
-    let corpo = document.getElementsByTagName("body")[0]
-    corpo.style 
+    let emnu = document
+    corpo.style = "backgroundColor: #000;"
+    alert("teste");
 }
