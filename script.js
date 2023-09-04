@@ -1,3 +1,4 @@
 function menu(){
-    document.get
+    let corpo = document.getElementsByTagName("body")
+    
 }
