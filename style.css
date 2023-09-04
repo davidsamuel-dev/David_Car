@@ -17,6 +17,7 @@ header #logo {
     width: 8em;
 }
 #menu{
-    width: 2em;
+    margin-top: 7px;
+    width: 1.5em;
     float: right;
 }
