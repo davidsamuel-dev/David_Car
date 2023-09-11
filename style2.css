@@ -1,20 +1,40 @@
-*{
+body{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-body{
-    background: linear-gradient();
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    min-width: 100vw;
-    display: flex;
-    align-items: center;
+    background-color: brown;
     justify-content: center;
-
+    align-items: center;
+    height: 100vh;
 }
 
+.container{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+
+.login-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-login{
+    margin-top: 20px;
+}
+
+.social-login{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
